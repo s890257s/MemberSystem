@@ -144,6 +144,7 @@ public class Action {
 					}
 
 					message.setText("你現在正在看著:" + m.getName());
+					idSearchInput.setText("");
 				} catch (SQLException e1) {
 					resetInput("找不到此會員");
 				} finally {
